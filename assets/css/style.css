@@ -16,7 +16,7 @@ h1, h2, p {
 }
 
 #imgCol {
-  background-image: url(../images/Picture1.png);
+  background: url(../images/Picture1.png) no-repeat;
   background-size: contain;
 }
 
