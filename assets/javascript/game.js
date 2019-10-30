@@ -1,5 +1,5 @@
 // Creates an array that lists out all of the alphabet.
-var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
   // random letter generator.
   var  game = function () { 
@@ -45,12 +45,12 @@ var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
 
     // Creating a variable to hold our new HTML. Our HTML now keeps track of user/computer guesses, wins/losses/ties.
     var html = 
-      "<p>Wins: " + wins + "</p>" + 
-      "<p>Losses: " + losses + "</p>" +  
-      "<p>Guesses Left: " + guesses + "</p>" + 
-      "<p>Your Guesses so far: " + guessArray + "</p>";
-      //"<p>The computer chose: " + computerGuess + "</p>"; //
+      '<p>Wins: ' + wins + '</p>' + 
+      '<p>Losses: ' + losses + '</p>' +  
+      '<p>Guesses Left: ' + guesses + '</p>' + 
+      '<p>Your Guesses so far: ' + guessArray + '</p>';
+      //'<p>The computer chose: ' + computerGuess + '</p>'; //
 
       // Set the inner HTML contents of the #game div to our html string
-      document.querySelector("#game").innerHTML = html;
+      document.querySelector('#game').innerHTML = html;
     };
