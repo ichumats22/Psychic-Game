@@ -2,13 +2,12 @@ body {
   background-image: url(../images/skyscraper.png)
 }
 
-h1, h2, p {
-  position: relative;
-  color: turquoise;
-  font-family: 'Fredericka the Great', cursive;
-  font-weight: bolder;
-  font-size: 50px;
-  text-align: center;
+#titleRow {
+  margin-top: 75px;
+}
+
+#secondROw {
+  margin-top: 50px;
 }
 
 .col-6 {
@@ -20,13 +19,27 @@ h1, h2, p {
   background-size: contain;
 }
 
-h2 {
-  font-size: 30px;
+#textCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-p {
-  font-family: 'Josefin Slab', serif;
-  font-size: 20px;
+h1, h2, h3 {
+  position: relative;
+  color: turquoise;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: bolder;
+  font-size: 90px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 40px;
   color: black;
   font-weight: bold;
 }
@@ -34,4 +47,5 @@ p {
 br {
   line-height: 150px;
 }
+
 
