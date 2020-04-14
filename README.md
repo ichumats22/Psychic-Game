@@ -8,4 +8,4 @@ A game in which the computer guesses a number and the player has to guess the co
   * HTML & CSS - User interface 
   * Javascript - App logic
   
-[See the end result](https://ichumats22.github.io/Train-Time/)
+[See the end result](https://ichumats22.github.io/Psychic-Game/)
